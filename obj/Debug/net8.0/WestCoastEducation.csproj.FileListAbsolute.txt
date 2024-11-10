@@ -1,0 +1,14 @@
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\bin\Debug\net8.0\WestCoastEducation.exe
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\bin\Debug\net8.0\WestCoastEducation.deps.json
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\bin\Debug\net8.0\WestCoastEducation.runtimeconfig.json
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\bin\Debug\net8.0\WestCoastEducation.dll
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\bin\Debug\net8.0\WestCoastEducation.pdb
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.AssemblyInfoInputs.cache
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.AssemblyInfo.cs
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.csproj.CoreCompileInputs.cache
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.dll
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\refint\WestCoastEducation.dll
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.pdb
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.genruntimeconfig.cache
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\ref\WestCoastEducation.dll

@@ -1,0 +1,74 @@
+[
+  {
+    "courseInfo": {
+      "courseNumber": 2401,
+      "title": "Programming 1",
+      "durationInWeeks": 4,
+      "studyForm": "Distance",
+      "start": "2025-01-07",
+      "end": "2025-01-31"
+    },
+    "teacher": {
+      "course": "Programming 1",
+      "areaOfExpertise": "Programming",
+      "number": 1,
+      "name": "Petra",
+      "lastName": "Klause",
+      "telephoneNumber": "0408-334455",
+      "personalNumber": "19890908-2434",
+      "address": {
+        "addressLine": "Signalgatan 3",
+        "postNumber": "454 77",
+        "city": "Stockholm"
+      }
+    }
+  },
+  {
+    "courseInfo": {
+      "courseNumber": 2402,
+      "title": "DevOps",
+      "durationInWeeks": 5,
+      "studyForm": "Classroom",
+      "start": "2025-01-07",
+      "end": "2025-02-07"
+    },
+    "teacher": {
+      "course": "DevOps",
+      "areaOfExpertise": "System Development",
+      "number": 2,
+      "name": "Thomas",
+      "lastName": "Frank",
+      "telephoneNumber": "0108-334455",
+      "personalNumber": "19790908-2434",
+      "address": {
+        "addressLine": "Storgatan 3",
+        "postNumber": "458 77",
+        "city": "Stockholm"
+      }
+    }
+  },
+  {
+    "courseInfo": {
+      "courseNumber": 2403,
+      "title": "Database",
+      "durationInWeeks": 4,
+      "studyForm": "Distance",
+      "start": "2025-01-07",
+      "end": "2025-01-31"
+    },
+    "teacher": {
+      "course": "Database",
+      "areaOfExpertise": "Data Analyse",
+      "number": 3,
+      "name": "Tommy",
+      "lastName": "Guth",
+      "telephoneNumber": "0488-334455",
+      "personalNumber": "19750908-2434",
+      "address": {
+        "addressLine": "Davidgatan 3",
+        "postNumber": "343 78",
+        "city": "Kiruna"
+      }
+    }
+  }
+]

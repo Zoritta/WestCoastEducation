@@ -1,31 +1,54 @@
-public class Teacher : Person, ICommunicate
+using System.Security.Cryptography.X509Certificates;
+
+namespace WestCoastEducation.Models;
+
+public class Teacher : Person
 {
-    public string Expertise { get; set; }
-    public List<Course> CoursesResponsible { get; set; }
+    public string? Course { get; set; }
+    public string? AreaOfExpertise { get; set; }
+    public int Number { get; set; }
 
-    public Teacher(string firstName, string lastName, string phone, string email, string address, string postalCode, string city, string expertise)
-        : base(firstName, lastName, phone, email, address, postalCode, city)
+    public Teacher (int number)
     {
-        Expertise = expertise;
-        CoursesResponsible = new List<Course>();
+        Number = number;
+        Find();
     }
 
-    public void AddCourse(Course course)
+    public override void Find()
     {
-        CoursesResponsible.Add(course);
-    }
-    public void SendEmail(string message)
-    {
-        Console.WriteLine($"Sending email: {message}");
+        if (Number == 1)
+        {
+            InitializeTeacher("Petra", "Klause", "0408-334455", "19890908-2434", "Signalgatan 3", "454 77", "Stockholm", "Programming 1", "Programming");
+        }
+        else if (Number == 2)
+        {
+            InitializeTeacher("Thomas", "Frank", "0108-334455", "19790908-2434", "Storgatan 3", "458 77", "Stockholm", "DevOps", "System Development");
+        }
+        else if (Number == 3)
+        {
+            InitializeTeacher("Tommy", "Guth", "0488-334455", "19750908-2434","Davidgatan 3", "343 78", "Kiruna", "Database", "Data Analyse");
+        }
+        else
+        {
+            throw new ArgumentException($"Could not find teacher number: {Number}");
+        }
     }
 
-    public void Chat(string message)
+    private void InitializeTeacher(string name, string lastName, string phone, string idNumber, string addressLine, string postalCode, string city, string course, string areaOfExpertise)
     {
-        Console.WriteLine($"Chatting: {message}");
+        Name = name;
+        LastName = lastName;
+        TelephoneNumber = phone;
+        PersonalNumber = idNumber;
+        Address.AddressLine = addressLine;
+        Address.PostNumber = postalCode;
+        Address.City = city;
+        Course = course;
+        AreaOfExpertise = areaOfExpertise;
     }
-
-    public override string ToString()
+    public override string DisplayInfo()
     {
-        return base.ToString() + $", Expertise: {Expertise}";
+        return $"{base.DisplayInfo()}, Course: {Course}, Area of Expertise: {AreaOfExpertise}";
     }
 }
+
