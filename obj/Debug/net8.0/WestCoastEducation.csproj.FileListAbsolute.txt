@@ -12,3 +12,4 @@ C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\
 C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.pdb
 C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.genruntimeconfig.cache
 C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\ref\WestCoastEducation.dll
+C:\Users\zohrs\OneDrive\Documents\School\C# Course\WestCoastEducation\obj\Debug\net8.0\WestCoastEducation.sourcelink.json
